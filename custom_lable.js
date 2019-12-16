@@ -2,7 +2,7 @@
 Ecwid.OnPageLoaded.add(function (page) {
           alert('SALE MESSAGE');
         // Apply changes only to category pages
-        if (page.type != 'CATEGORY') {
+       /* if (page.type != 'CATEGORY') {
 
           // Remove any previously added elements when new page changes 
           // If you change class name here, make sure to update it below too
@@ -37,5 +37,5 @@ Ecwid.OnPageLoaded.add(function (page) {
             // Add new element to products
             elem.appendChild(container);
           }
-        }
+        }*/
 });
