@@ -1,7 +1,7 @@
 
 Ecwid.OnPageLoaded.add(function (page) {
         // Apply changes only to category pages
-        if (page.type == 'CATEGORY') {
+        if (page.type != 'CATEGORY') {
 
           // Remove any previously added elements when new page changes 
           // If you change class name here, make sure to update it below too
