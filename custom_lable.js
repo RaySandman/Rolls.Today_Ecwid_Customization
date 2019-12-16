@@ -1,5 +1,6 @@
 
 Ecwid.OnPageLoaded.add(function (page) {
+          alert('SALE MESSAGE');
         // Apply changes only to category pages
         if (page.type != 'CATEGORY') {
 
